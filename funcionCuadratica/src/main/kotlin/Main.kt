@@ -2,10 +2,14 @@ package org.example
 
 fun calcularValores(a:Double, b:Double, c:Double):Unit{
     println("TABLA DE VALORES")
-    println("x | y")
+    println("x  |  y")
     for (x:Int in -5..5){
         var y:Double = a*x*x+b*x+c
-        println("$x | $y")
+        if (x<0){
+            println("$x |  $y")
+            continue
+        }
+        println("$x  |  $y")
     }
 }
 fun calcularRaices(a:Double, b:Double, c:Double):Unit{
