@@ -23,7 +23,7 @@ fun main() {
     //Mostrar la funcion en formato ax²+bx+c
     println("La función que tenemos es: f(x)=${a}x²+${b}x+${c}")
 
-    //Mostrar tabla de valores
+    //Mostrar tabla de valores.
     calcularValores(a,b,c)
 
 
